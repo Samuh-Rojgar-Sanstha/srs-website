@@ -102,3 +102,26 @@ footer a {
 footer a:hover {
     color: var(--secondary-color);
 }
+.benefit-item {
+            display: flex;
+            align-items: start;
+            margin-bottom: 1rem;
+        }
+        .benefit-icon {
+            color: #198754; /* Success Green */
+            font-size: 1.25rem;
+            margin-right: 10px;
+            flex-shrink: 0;
+        }
+        .membership-card {
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .membership-header {
+            background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
